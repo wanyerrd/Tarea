@@ -1,0 +1,41 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: hsl(236, 100%, 50%);
+    background: rgb(255, 255, 255)
+}
+main{
+        width: 70%; 
+        height: 50px;
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top:100px;
+        padding: 0 15px;
+        
+}
+form {
+width: 80%;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+input {
+       width: 70%;
+       height: 40px;
+       margin-bottom: 5px;
+       border: 1px solid:rgb(38, 10, 161);
+       border-radius: 5px;
+       padding: 0 15px;
+}
+.boton:hover {
+    background:blue ;
+    color: white;
+}
